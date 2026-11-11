@@ -19,7 +19,7 @@ cfg = struct();
 %% ------------------------------------------------------------ General
 cfg.name           = 'EIT_comparison';
 cfg.run_mode       = 'full';        % 'pilot' = solo prueba piloto; 'full' = estudio completo
-cfg.eidors_startup = 'C:\Users\ahugo\eidors-v3.12-ng\eidors\startup.m';            % ruta a eidors/startup.m ('' si EIDORS ya está en el path)
+cfg.eidors_startup = '';            % ruta a eidors/startup.m ('' si EIDORS ya está en el path)
 cfg.output_root    = fullfile(pwd, 'results');
 cfg.verbose        = true;
 cfg.eidors_log_level = 1;           % nivel de mensajes de EIDORS (1 = mínimo)
